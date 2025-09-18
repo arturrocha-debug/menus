@@ -1,0 +1,92 @@
+/* ====== Menu feito com lista ====== */
+ul.menu1 {
+  list-style-type: none; 
+  margin:0; 
+  padding: 0; 
+  background-color: #a2d7e7;
+  overflow: hidden;
+  
+}
+
+ ul.menu1 li {
+  float: left;
+  
+}
+
+ ul.menu1 li a {
+  display: block;
+  color:white;
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none;
+  transition:background-color 0.3s;
+}
+
+ ul.menu1 li a:hover{
+  background-color: #37f5cc;
+}
+
+
+/* ====== Menu feito com tabela ====== */
+table.menu {
+  width: 100%; 
+  background-color:#a2d7e7;
+  border-collapse: collapse;
+}
+ table.menu td {
+  padding: 14px 20px;
+  text-align: center; 
+  border-right: 1px solid#f5f1f4;
+}
+
+ table.menu td:last-child {
+  border-right:none;
+}
+
+ table.menu a {
+  color: rgb(240, 237, 237);
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+ table.menu a:hover {
+  background-color:#559ee7;
+}
+
+
+.contatos h2 {
+  color: #3adff5;
+  margin-bottom: 1rem;
+}
+
+.contatos p {
+  margin-bottom: 1.5rem;
+  color: #110f0f;
+}
+
+.contatos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.contatos-lista li {
+  margin: 12px 0;
+  font-size: 1.1rem;
+}
+
+.contatos-lista a {
+  color: #34f0e0;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contatos-lista a:hover {
+  text-decoration: underline;
+}
+mark {
+  background-color: #26ebe1; /* muda o fundo do <mark> para rosa bebê */
+  color: black;              /* muda a cor do texto dentro do <mark> */
+}
